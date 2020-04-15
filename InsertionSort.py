@@ -9,5 +9,5 @@ for i in range(1,len(num)):
         num[j+1]=num[j]
         j = j-1
     num[j+1] = key
-
+    print(num)
 print(num)
